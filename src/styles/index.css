@@ -1,0 +1,40 @@
+body, html, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: black;
+  color: white;
+  justify-content: space-around;
+}
+
+.header__logo, .header__search, .header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__search {
+  height: 3vh;
+}
+
+.header__search-input {
+  width: 70vw;
+  height: 100%;
+}
+
+.header__search svg {
+  color: black;
+  background: orange;
+  height: 3.6vh;
+  width: 1.2em;
+}
+
+.header .nav__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*# sourceMappingURL=index.css.map */
