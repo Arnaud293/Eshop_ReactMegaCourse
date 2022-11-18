@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className='home'>
             <div className="home__container">
-                <img src={Background} alt="" className="home__container-img" />
+                <img src={Background} alt="background-ecommerce-draw" className="home__container-img" />
 
                 <div className="home__container_row">
                     <Product />
