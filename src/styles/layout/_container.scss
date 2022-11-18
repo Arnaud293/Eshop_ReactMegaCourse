@@ -3,6 +3,14 @@
     &__container{
         width: 100%;
         // height: 60vh;
+        background: black;
+
+        &_row{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
         
         &-img{
             object-fit: cover;

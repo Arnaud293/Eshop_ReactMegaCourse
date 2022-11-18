@@ -1,0 +1,15 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background : #ffffffe0;
+    margin: 1ch;
+    height: 350px;
+    width: 100%;
+    &-img{
+        object-fit: contain;
+        height: 60%;
+        width: 80%;
+    }
+}
