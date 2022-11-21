@@ -8,7 +8,7 @@ const Product = () => {
             <div className="product__infos">
                 <p>Title</p>
                 <p className="product__infos-price">$$</p>
-                <div className="product__infos-rate">stars</div>
+                <div className="product__infos-rate">⭐</div>
             </div>
             <img src={Product1} alt="tote-bag-black" className="product-img" />
 
