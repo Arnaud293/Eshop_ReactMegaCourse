@@ -13,7 +13,7 @@ const Product = ({productNumber}) => {
                 <p className="product__infos-price">{thisProduct.price}$</p>
                 <div className="product__infos-rate">{thisProduct.rating}⭐</div>
             </div>
-            <img src={thisProduct.img} alt="tote-bag-black" className="product-img" />
+            <img src={thisProduct.img} alt={thisProduct.alt} className="product-img" />
 
             <button type='button' className='basket-btn'>Add to basket</button>
         </div>
