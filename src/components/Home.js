@@ -11,16 +11,16 @@ const Home = () => {
                 <img src={Background} alt="background-ecommerce-draw" className="home__container-img" />
 
                 <div className="home__container_row">
-                    <Product />
-                    <Product />
+                    <Product productNumber={0}/>
+                    <Product productNumber={1}/>
                 </div>
                 <div className="home__container_row">
-                    <Product />
-                    <Product />
-                    <Product />
+                    <Product productNumber={2}/>
+                    <Product productNumber={3}/>
+                    <Product productNumber={4}/>
                 </div>
                 <div className="home__container_row">
-                    <Product />
+                    <Product productNumber={5}/>
                 </div>
             </div>
         </div>
