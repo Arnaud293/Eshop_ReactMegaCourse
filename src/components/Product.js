@@ -11,7 +11,13 @@ const Product = ({productNumber}) => {
             <div className="product__infos">
                 <p>{thisProduct.title}</p>
                 <p className="product__infos-price">{thisProduct.price}$</p>
-                <div className="product__infos-rate">{thisProduct.rating}⭐</div>
+                <div className="product__infos-rate">
+                {Array(thisProduct.rating)
+                .fill()
+                .map((_ , i) => (
+                    <p>⭐</p>
+                ))}
+                </div>
             </div>
             <img src={thisProduct.img} alt={thisProduct.alt} className="product-img" />
 
