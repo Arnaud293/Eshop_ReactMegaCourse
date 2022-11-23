@@ -9,7 +9,7 @@ import SearchIcon from '@mui/icons-material/Search';
 const Header = () => {
     return (
         <div className="header">
-            <NavLink to='/' style={{textDecoration: "none"}}>
+            <NavLink to='/' style={{color : "inherit", textDecoration: "none"}}>
                 <div className='header__logo'>
                     <StorefrontIcon className='header__logo-img' fontSize='large'/>
                     <h2 className='header__logo-title'>eShop</h2>
@@ -28,7 +28,7 @@ const Header = () => {
                     <span className="nav__item-one">Your</span>
                     <span className="nav__item-two">Shop</span>
                 </div>
-                <NavLink to='/checkout' style={{textDecoration: "none"}}>
+                <NavLink to='/checkout' style={{color : "inherit", textDecoration: "none"}}>
                     <div className="nav__item__basket">
                         <ShoppingBasketIcon fontSize='large' className='item-basket'/>
                         <span className="nav__item-two nav__basket-count">0</span>
