@@ -7,6 +7,7 @@ const Subtotal = () => {
             <small className='subtotal__gift'>
                 <input type="checkbox"/> This order contain a gift
             </small>
+            <button>Proceed to checkout</button>
         </div>
     );
 };
