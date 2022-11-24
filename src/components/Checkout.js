@@ -7,7 +7,6 @@ const Checkout = () => {
     return (
 
         <div className='checkout'>
-            <Header />
             <div className="checkout__left">
                 <img src="" alt="" className="checkout__ad" />
                 <div>
