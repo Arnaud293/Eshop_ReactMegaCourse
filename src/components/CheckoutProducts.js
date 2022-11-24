@@ -20,7 +20,7 @@ const CheckoutProducts = () => {
                 <div className="checkout__product--rate">
                     <p>⭐</p>
                 </div>
-                <button>Remove from basket</button>
+                <button className='basket-btn'>Remove from basket</button>
             </div>
         </div>
     );
