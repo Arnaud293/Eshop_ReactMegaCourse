@@ -120,6 +120,10 @@ body, html, ul {
   height: 35px;
 }
 
+.checkout__product--img {
+  height: 200px;
+}
+
 .basket-btn {
   background: orange;
   border: 0.5px solid black;
